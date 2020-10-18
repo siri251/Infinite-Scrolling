@@ -11,7 +11,7 @@ body {
     min-height : 100vh ;
     font-family: 'Kalam', sans-serif;
    
-    background:whitesmoke;
+    background: rgba(226, 224, 241, 0.8);
     
 
 }
@@ -23,6 +23,7 @@ h1{
     margin-left: 20px;
     margin-bottom: 25px;
     font-size: 40px;
+    color: rgb(1, 1, 75);
 }
 
 .loader{
@@ -52,6 +53,9 @@ h1{
 .image-container img{
     width:100%;
     margin:10px;
+    /* border: 1px solid; */
+    /* padding: 10px; */
+    box-shadow: 10px 10px 18px #888888;
 }
 
 @media screen and (max-width:600px){
